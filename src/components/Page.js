@@ -19,7 +19,6 @@ import img5 from "../Images/img-5.JPG";
 import img6 from "../Images/img-6.JPG";
 import img7 from "../Images/img-7.JPG";
 import img8 from "../Images/img-8.JPG";
-import img9 from "../Images/img-9.JPG";
 import img10 from "../Images/img-10.JPG";
 import img11 from "../Images/img-11.JPG";
 import img12 from "../Images/img-12.JPG";
@@ -36,7 +35,7 @@ function Page() {
         <div className="bg-white h-20 flex justify-start items-center">
           <Link
             to="#"
-            className="bg-none mx-14 rounded-full hover:bg-gray-400 "
+            className="bg-none ml-14 mr-10 py-2 px-2 rounded-full hover:bg-gray-300 hover:text-black"
           >
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
@@ -280,7 +279,7 @@ function Page() {
 
           <div className="p-10 grid grid-cols-4 gap-16">
             <div className="rounded overflow-hidden">
-              <img className="w-full h-96" src={img9} alt="" />
+              <img className="w-full h-96" src={img8} alt="" />
               <div className="px-6 py-4 bg-customwhite">
                 <div className="cursor-pointer hover:underline font-bold text-xl mb-2">
                   BILLY
