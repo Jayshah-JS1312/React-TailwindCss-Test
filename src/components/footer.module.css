@@ -1,0 +1,14 @@
+.content div {
+  flex: 1;
+}
+
+.content div:first-child {
+  flex: 2;
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.content div:first-child li {
+  width: 75%;
+}
